@@ -26,7 +26,7 @@ echo "Please, stand by..."
 sleep 5
 
 # Starting all lux-hud conky widgets.
-conky -c ${DIR}/lux-sysinfo.conf -m ${MONITOR_INDEX} &
+#conky -c ${DIR}/lux-sysinfo.conf -m ${MONITOR_INDEX} &
 conky -c ${DIR}/lux-cpu.conf -m ${MONITOR_INDEX} &
 # conky -c ~/.config/conky/lux-hud/lux-memory.conf -m ${MONITOR_INDEX} &
 # conky -c ~/.config/conky/lux-hud/lux-disks.conf -m ${MONITOR_INDEX} &
